@@ -43,9 +43,9 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
      ```
 
 4. **Preprocessing data:**
-   - Handle missing values in the 'Danceability' column by filling them with the mean:
+   - Handle missing values in the columns by filling them with the mean:
      ```
-     df['Danceability'].fillna(df['Danceability'].mean(), inplace=True)
+     df.fillna(df.mean(numeric_only=True), inplace=True)  # or df.dropna(inplace=True)
      
      ```
    - Encoding categorical variables:
