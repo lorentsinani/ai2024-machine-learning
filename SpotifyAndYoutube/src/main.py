@@ -8,6 +8,9 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 df = pd.read_csv('Spotify_Youtube.csv')
 
+print(df.dtypes)
+print(df.describe())
+
 df.fillna(df.mean(numeric_only=True), inplace=True)  # or df.dropna(inplace=True)
 
 # Encoding categorical variables
