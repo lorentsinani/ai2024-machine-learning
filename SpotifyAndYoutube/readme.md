@@ -43,7 +43,7 @@ The first part of this project aims to preprocess the data to enable a more robu
 4. **Preprocessing data:**
    - Handle missing values in the columns by filling them with the mean:
      ```
-     df['Danceability'].fillna(df['Danceability'].mean(), inplace=True)
+     df.fillna(df.mean(numeric_only=True), inplace=True)  # or df.dropna(inplace=True)
      ```
    - Encoding categorical variables:
     ```
