@@ -12,6 +12,33 @@ This repository contains implementations of LightGBM, XGBoost and CatBoost algor
 - [Board Games](https://www.kaggle.com/datasets/sujaykapadnis/board-games/)
 - [Spotify and Youtube](https://www.kaggle.com/datasets/salvatorerastelli/spotify-and-youtube/) 
 
+## Usage
+
+1. Clone this repository:
+
+    ```bash
+    git clone https://github.com/your-username/sudoku-solver.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd ai2024-machine0learning
+    ```
+
+3. Run the project in notebook using `jupyter notebook` which you need to install(if it's not):
+
+    ```bash
+    jupyter notebook
+    ```
+  OR navigate to  Spotify and Youtube dataset directory `./SpotifyAndYoutube/src/` and run the `main.py` via python like:
+    ```
+    python main.py
+    ```
+
+4. The project will displayed in `jupyter` localhost where you can run cells and check results.
+
+
 ## Contributing
 
 Feel free to contribute by creating pull requests for improvements, bug fixes, or additional features.
