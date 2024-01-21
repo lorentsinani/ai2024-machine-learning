@@ -17,7 +17,7 @@ This repository contains implementations of LightGBM, XGBoost and CatBoost algor
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/your-username/sudoku-solver.git
+    git clone https://github.com/lorentsinani/ai2024-machine-learning.git
     ```
 
 2. Navigate to the project directory:
